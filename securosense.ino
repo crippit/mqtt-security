@@ -114,7 +114,7 @@ void loop() {
   //Window 1 =
   //Window 2 =
   // compare the door to its previous state
-    if (door1 != lastDoor1State) {
+    if (door1State != lastDoor1State) {
     // if the door state has changed
     if (door1State == LOW) {
             Serial.println("Door Open");
