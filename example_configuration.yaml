@@ -1,0 +1,20 @@
+binary_sensor:
+  #Doors
+  - platform: mqtt
+    name: Front Door
+    state_topic: ha/door/door1
+    payload_on: "Open"
+    payload_off: "Closed"
+    device_class: door
+  - platform: mqtt
+    name: Back Door
+    state_topic: ha/door/door2
+    payload_on: "Open"
+    payload_off: "Closed"
+    device_class: door
+  - platform: mqtt
+    name: Garage Door
+    state_topic: ha/door/door3
+    payload_on: "Open"
+    payload_off: "Closed"
+    device_class: door
