@@ -2,9 +2,9 @@
 #include <PubSubClient.h>
 
 // this constant won't change:
-const int buttonPin = D2;    // the pin that the pushbutton is attached to
-const int door2Pin = D3;
-const int door3Pin = D6;
+const int buttonPin = D2;   // the pin that the door is attached to
+const int door2Pin = D3;    // the pin that door 2 is attached to     
+const int door3Pin = D6;    // the pin that door 3 is attached to
 const int ledPin = D4;       // the pin that the LED is attached to
 
 // Current State:
