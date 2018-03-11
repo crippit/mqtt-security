@@ -18,3 +18,15 @@ binary_sensor:
     payload_on: "Open"
     payload_off: "Closed"
     device_class: door
+ - platform: mqtt
+    name: Basement Window
+    state_topic: ha/window/window1
+    payload_on: "Open"
+    payload_off: "Closed"
+    device_class: window
+  - platform: mqtt
+    name: Office Window
+    state_topic: ha/window/window2
+    payload_on: "Open"
+    payload_off: "Closed"
+    device_class: window
